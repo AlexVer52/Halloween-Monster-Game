@@ -807,9 +807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponCardView
   cardData: {fileID: 0}
   id: {fileID: 0}
-  nameText: {fileID: 0}
-  descriptionText: {fileID: 0}
-  attackPower: {fileID: 0}
+  nameText: {fileID: 5124262668772760373}
+  descriptionText: {fileID: 1413759301456267133}
+  attackPower: {fileID: 6150533251747378014}
 --- !u!1 &8336980036991143060
 GameObject:
   m_ObjectHideFlags: 0

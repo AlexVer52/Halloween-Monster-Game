@@ -13,12 +13,14 @@ public class MonsterCardView : MonoBehaviour
     //public Image artworkImage;
     public TextMeshProUGUI hp;
     public TextMeshProUGUI rewardTotal;
+    public bool isFaceUp;
+    public static bool staticCardback;
     void Start()
     {
         if (cardData != null)
         {
             nameText.text = cardData.cardName;
-            //descriptionText.text = cardData.description;
+            descriptionText.text = cardData.description;
             Debug.Log("Monster HP: " + cardData.hp.ToString());
             hp.text = cardData.hp.ToString();
             Debug.Log("Reward VP: " + cardData.rewardVP.ToString());
@@ -32,5 +34,10 @@ public class MonsterCardView : MonoBehaviour
                 rewardTotal.text = "No Rewards";
             //artworkImage.sprite = cardData.artwork;
         }
+    }
+
+    void Update()
+    {
+        staticCardback = isFaceUp;
     }
 }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae7eb784e7916a48874ea078262064c, type: 3}
+  m_Name: MonsterDeck
+  m_EditorClassIdentifier: Assembly-CSharp::DeckBuilding
+  monsterDeck:
+  - {fileID: 11400000, guid: 7720c2a85d515d541a14c164566b78b3, type: 2}
+  - {fileID: 11400000, guid: 7720c2a85d515d541a14c164566b78b3, type: 2}
+  - {fileID: 11400000, guid: 4738a130d90419f4ebbd6192036734dc, type: 2}
+  - {fileID: 11400000, guid: 897668fc1d537574db26be964ca0e6ea, type: 2}

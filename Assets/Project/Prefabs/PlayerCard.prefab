@@ -457,9 +457,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCardView
   cardData: {fileID: 0}
   id: {fileID: 0}
-  nameText: {fileID: 0}
+  nameText: {fileID: 7997660586066162337}
   descriptionText: {fileID: 0}
-  hp: {fileID: 0}
+  hp: {fileID: 4874715160302911093}
   stuff: {fileID: 0}
 --- !u!1 &6097616676049819439
 GameObject:

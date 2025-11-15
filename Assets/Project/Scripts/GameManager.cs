@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     }
 
     public GamePhase currentPhase = GamePhase.Discussion;
-
+    //public Butt
     public float phaseDuration = 30f;       // 30 seconds per phase
     public float totalGameDuration = 90f;  // 6 minutes = 360 seconds
 
