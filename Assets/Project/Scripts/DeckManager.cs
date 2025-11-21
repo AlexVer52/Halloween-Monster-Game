@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DeckManager : MonoBehaviour
 {
     public DeckBuilding monsterDeck;
+    public List<MonsterCard> monsterOnField = new List<MonsterCard>();
     public MonsterCardView monsterCardPrefab;
     public RectTransform[] monsterSlots;
     public RectTransform deckSlot;
@@ -26,11 +28,13 @@ public class DeckManager : MonoBehaviour
             {
                 MonsterCardView cardView = Instantiate(monsterCardPrefab, monsterSlots[i]);
                 cardView.cardData = drawnCard;
-                cardView.isFaceUp = false;
+                cardView.isFaceUp = true;
+                monsterOnField.Add(drawnCard);
             }
         }
+
         MonsterCardView deckCardView = Instantiate(monsterCardPrefab, deckSlot);
         deckCardView.cardData = null; // Assuming the deck slot starts empty
-        deckCardView.isFaceUp = true;
+        deckCardView.isFaceUp = false;
     }
 }

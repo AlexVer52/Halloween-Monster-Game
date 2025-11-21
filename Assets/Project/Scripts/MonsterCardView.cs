@@ -7,14 +7,16 @@ using TMPro;
 public class MonsterCardView : MonoBehaviour
 {
     public MonsterCard cardData;
-    public Text id;
+
+    [Header("UI References")]
+    public GameObject cardFront;
+    public GameObject cardBack;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI descriptionText;
-    //public Image artworkImage;
     public TextMeshProUGUI hp;
     public TextMeshProUGUI rewardTotal;
     public bool isFaceUp;
-    public static bool staticCardback;
+    //public Image artworkImage;
     void Start()
     {
         if (cardData != null)
@@ -34,10 +36,25 @@ public class MonsterCardView : MonoBehaviour
                 rewardTotal.text = "No Rewards";
             //artworkImage.sprite = cardData.artwork;
         }
+        UpdateCardFace();
     }
 
     void Update()
     {
-        staticCardback = isFaceUp;
+        UpdateCardFace();
+    }
+
+    void UpdateCardFace()
+    {
+        if (isFaceUp)
+        {
+            cardFront.SetActive(true);
+            cardBack.SetActive(false);
+        }
+        else
+        {
+            cardFront.SetActive(false);
+            cardBack.SetActive(true);
+        }
     }
 }

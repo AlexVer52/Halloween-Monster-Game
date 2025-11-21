@@ -34,11 +34,14 @@ public class PlayerCard : CardData
 {
     public string description;
     public int hp;
-    public string stuff;
+    public WeaponCard startingWeapon;
+    public System.Collections.Generic.List<Weapon> stuff = new System.Collections.Generic.List<Weapon>();
 
     private void OnEnable()
     {
         cardType = CardType.Player;
+        Weapon weapon = new Weapon(startingWeapon);
+        stuff.Add(weapon);
     }
 }
 
