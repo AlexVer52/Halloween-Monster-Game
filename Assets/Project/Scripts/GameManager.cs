@@ -2,16 +2,19 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public AttackManager attackManager;
+    public ResolutionManager resolutionManager;
     public PlayerCardView playerCardPrefab;
     //public RectTransform playerSlot;
     public PlayerCard playerCardData;
     public GameObject attackSelectionPanel;
     public List<Player> players = new List<Player>();
     public List<Player> turnQueue = new List<Player>();
+    public TextMeshProUGUI phaseText;
     public int maxHP = 0;
     public int currentPlayerIndex = 0;
     public enum GamePhase
@@ -38,6 +41,12 @@ public class GameManager : MonoBehaviour
     public void AddPlayer()
     {
         Player player = new Player(playerCardData);
+
+        // In the future make the name personalizable by the player, like Marc or Pierre
+        int nombreDeJoueurs = players.Count;
+        player.playerCardData.cardName = "Player " + (nombreDeJoueurs + 1);
+
+
         players.Add(player);
         Debug.Log("Player added: " + player.playerCardData.hp + player.playerCardData.cardName + player.playerCardData.stuff.ToString() + " items.");
     }
@@ -63,7 +72,7 @@ public class GameManager : MonoBehaviour
                 StartNextPlayerAttackPhase();
                 return GamePhase.Attack;
             case GamePhase.Attack:
-                Debug.Log("All players have completed their Attack Phase:" + attackManager.attackQueue.Count + " attacks queued.");
+                resolutionManager.ResolveAttacks();
                 return GamePhase.Resolution;
             case GamePhase.Resolution:
                 return GamePhase.Discussion;
@@ -71,19 +80,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void AffichagePhaseTMP()
+    {
+        phaseText.text = "Phase: " + currentPhase.ToString();
+    }
+
     public void StartNextPlayerAttackPhase()
     {
-        if (currentPlayerIndex >= players.Count)
-        {
-            Debug.Log("All players have completed their Attack Phase.");
-            return;
-        }
         Player currentPlayer = players[currentPlayerIndex];
         attackManager.StartAttackPhase(currentPlayer);
     }
 
     void Update()
     {
-
+        AffichagePhaseTMP();
     }
 }

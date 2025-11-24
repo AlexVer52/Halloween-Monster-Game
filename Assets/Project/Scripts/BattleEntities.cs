@@ -5,6 +5,7 @@ public class Player
 {
     public PlayerCard playerCardData;
     public System.Collections.Generic.List<Weapon> stuff = new System.Collections.Generic.List<Weapon>();
+    public int rewardPoints = 0;
 
     public Player(PlayerCard playerCardData)
     {
@@ -21,10 +22,12 @@ public class Player
 public class Monster
 {
     public MonsterCard monsterCardData;
+    public int currentHp;
 
     public Monster(MonsterCard monsterCardData)
     {
         this.monsterCardData = monsterCardData;
+        this.currentHp = monsterCardData.hp;
     }
 }
 

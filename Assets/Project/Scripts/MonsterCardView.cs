@@ -14,9 +14,10 @@ public class MonsterCardView : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI descriptionText;
     public TextMeshProUGUI hp;
-    public TextMeshProUGUI rewardTotal;
+    public TextMeshProUGUI rewardVP;
+    public TextMeshProUGUI rewardWeapon;
     public bool isFaceUp;
-    //public Image artworkImage;
+    public Image artworkImage;
     void Start()
     {
         if (cardData != null)
@@ -26,15 +27,15 @@ public class MonsterCardView : MonoBehaviour
             Debug.Log("Monster HP: " + cardData.hp.ToString());
             hp.text = cardData.hp.ToString();
             Debug.Log("Reward VP: " + cardData.rewardVP.ToString());
-            if (cardData.rewardVP != 0 && cardData.rewardWeapon != null)
-                rewardTotal.text = cardData.rewardVP.ToString() + " Victory Points and " + cardData.rewardWeapon;
-            if (cardData.rewardVP != 0 && cardData.rewardWeapon == null)
-                rewardTotal.text = cardData.rewardVP.ToString() + " Victory Points ";
-            if (cardData.rewardVP == 0 && cardData.rewardWeapon != null)
-                rewardTotal.text = cardData.rewardWeapon;
-            if (cardData.rewardVP == 0 && cardData.rewardWeapon == null)
-                rewardTotal.text = "No Rewards";
-            //artworkImage.sprite = cardData.artwork;
+            if (cardData.rewardVP != 0)
+                rewardVP.text = cardData.rewardVP.ToString();
+            else
+                rewardVP.text = "0";
+
+            if (cardData.rewardWeapon != null)
+                rewardWeapon.text = cardData.rewardWeapon.ToString();
+
+            artworkImage.sprite = cardData.artwork;
         }
         UpdateCardFace();
     }

@@ -18,5 +18,9 @@ MonoBehaviour:
   cardType: 0
   description: Une puissante adversaire. Faites attention!
   hp: 10
-  rewardVP: 4
-  rewardWeapon: Bombe
+  rewardVP: 2
+  artwork: {fileID: -3634830244021667088, guid: e549e6c2eb42da249b61148119835d71, type: 3}
+  backgroundImage: {fileID: 0}
+  rewardWeaponCards:
+  - {fileID: 11400000, guid: ce51cd9834df9e64da941e2763544bb4, type: 2}
+  - {fileID: 11400000, guid: 7f2a83b44f06ec641b55cae0bdce5523, type: 2}

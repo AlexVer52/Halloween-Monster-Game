@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 3618cd5a00e477c4d9b3c2715e0305a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5792944970611511728
+    second: BordureDeCarte_0
+  - first:
+      213: -354477865234070633
+    second: BordureDeCarte_1
+  - first:
+      213: -401607916308876514
+    second: BordureDeCarte_2
+  - first:
+      213: 1427698550435341935
+    second: BordureDeCarte_3
+  - first:
+      213: -3693846436002900389
+    second: BordureDeCarte_4
+  - first:
+      213: 2765111690175014993
+    second: BordureDeCarte_5
+  - first:
+      213: 4993897976269622400
+    second: BordureDeCarte_6
+  - first:
+      213: 1978178116374843845
+    second: BordureDeCarte_7
+  - first:
+      213: 5369919791868730883
+    second: BordureDeCarte_8
+  - first:
+      213: 1726254155907378224
+    second: BordureDeCarte_9
+  - first:
+      213: -5079888071372120960
+    second: BordureDeCarte_10
+  - first:
+      213: 7876416835543155864
+    second: BordureDeCarte_11
+  - first:
+      213: 1357369288085679259
+    second: BordureDeCarte_12
+  - first:
+      213: 553774567177916637
+    second: BordureDeCarte_13
+  - first:
+      213: -2902709550930502267
+    second: BordureDeCarte_14
+  - first:
+      213: 3957412338258410662
+    second: BordureDeCarte_15
+  - first:
+      213: -4872569489917671223
+    second: BordureDeCarte_16
+  - first:
+      213: -6336105758215638969
+    second: BordureDeCarte_17
+  - first:
+      213: 6828326877374718687
+    second: BordureDeCarte_18
+  - first:
+      213: 1098846540673948522
+    second: BordureDeCarte_19
+  - first:
+      213: 4627325196925661902
+    second: BordureDeCarte_20
+  - first:
+      213: 4080471084197933548
+    second: BordureDeCarte_21
+  - first:
+      213: 74493260450999248
+    second: BordureDeCarte_22
+  - first:
+      213: -576609814405086455
+    second: BordureDeCarte_23
+  - first:
+      213: -150628236182833736
+    second: BordureDeCarte_24
+  - first:
+      213: 8389199616762337756
+    second: BordureDeCarte_25
+  - first:
+      213: 2884385964083527309
+    second: BordureDeCarte_26
+  - first:
+      213: 8163957186778141587
+    second: BordureDeCarte_27
+  - first:
+      213: 6200493284990851765
+    second: BordureDeCarte_28
+  - first:
+      213: -3392123651952748385
+    second: BordureDeCarte_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BordureDeCarte_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ea057dd335b9fa0800000000000000
+      internalID: -5792944970611511728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1353
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7930cf97244a41bf0800000000000000
+      internalID: -354477865234070633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1353
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13bc695ab33d6af0800000000000000
+      internalID: -401607916308876514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1352
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66e901744430d310800000000000000
+      internalID: 1427698550435341935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_4
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1353
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56543fbc32dcbcc0800000000000000
+      internalID: -3693846436002900389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_5
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1353
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15869299e66af5620800000000000000
+      internalID: 2765111690175014993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_6
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1353
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc71820c3ed4540800000000000000
+      internalID: 4993897976269622400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_7
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1353
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c159f81486e37b10800000000000000
+      internalID: 1978178116374843845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1259
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30edca28999c58a40800000000000000
+      internalID: 5369919791868730883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ca6ea3203e4f710800000000000000
+      internalID: 1726254155907378224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1207
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cde17a6bc9089b0800000000000000
+      internalID: -5079888071372120960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_11
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894c4718167ae4d60800000000000000
+      internalID: 7876416835543155864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_12
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c2f550d2856d210800000000000000
+      internalID: 1357369288085679259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1019
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0194ae8076fa700800000000000000
+      internalID: 553774567177916637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 488
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d57aaea0187b7d0800000000000000
+      internalID: -2902709550930502267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 416
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acf3abed8d8be630800000000000000
+      internalID: 3957412338258410662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 415
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c80d0a6dd7216cb0800000000000000
+      internalID: -4872569489917671223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 415
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740ff3e0261a118a0800000000000000
+      internalID: -6336105758215638969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_18
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd22c20fd1713ce50800000000000000
+      internalID: 6828326877374718687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_19
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b99875b13ef3f00800000000000000
+      internalID: 1098846540673948522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_20
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2f7feffbf873040800000000000000
+      internalID: 4627325196925661902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1fed1f4deb0a830800000000000000
+      internalID: 4080471084197933548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dba757c937a80100800000000000000
+      internalID: 74493260450999248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_23
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9038166cd687ff7f0800000000000000
+      internalID: -576609814405086455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5bd21da6cd8edf0800000000000000
+      internalID: -150628236182833736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 31
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd956f28a9c6c6470800000000000000
+      internalID: 8389199616762337756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_26
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e325090c5670820800000000000000
+      internalID: 2884385964083527309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_27
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 31
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393986f8ec33c4170800000000000000
+      internalID: 8163957186778141587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_28
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba13148ac39c0650800000000000000
+      internalID: 6200493284990851765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordureDeCarte_29
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 11
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98d723c281cce0d0800000000000000
+      internalID: -3392123651952748385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BordureDeCarte_0: -5792944970611511728
+      BordureDeCarte_1: -354477865234070633
+      BordureDeCarte_10: -5079888071372120960
+      BordureDeCarte_11: 7876416835543155864
+      BordureDeCarte_12: 1357369288085679259
+      BordureDeCarte_13: 553774567177916637
+      BordureDeCarte_14: -2902709550930502267
+      BordureDeCarte_15: 3957412338258410662
+      BordureDeCarte_16: -4872569489917671223
+      BordureDeCarte_17: -6336105758215638969
+      BordureDeCarte_18: 6828326877374718687
+      BordureDeCarte_19: 1098846540673948522
+      BordureDeCarte_2: -401607916308876514
+      BordureDeCarte_20: 4627325196925661902
+      BordureDeCarte_21: 4080471084197933548
+      BordureDeCarte_22: 74493260450999248
+      BordureDeCarte_23: -576609814405086455
+      BordureDeCarte_24: -150628236182833736
+      BordureDeCarte_25: 8389199616762337756
+      BordureDeCarte_26: 2884385964083527309
+      BordureDeCarte_27: 8163957186778141587
+      BordureDeCarte_28: 6200493284990851765
+      BordureDeCarte_29: -3392123651952748385
+      BordureDeCarte_3: 1427698550435341935
+      BordureDeCarte_4: -3693846436002900389
+      BordureDeCarte_5: 2765111690175014993
+      BordureDeCarte_6: 4993897976269622400
+      BordureDeCarte_7: 1978178116374843845
+      BordureDeCarte_8: 5369919791868730883
+      BordureDeCarte_9: 1726254155907378224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

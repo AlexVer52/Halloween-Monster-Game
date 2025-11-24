@@ -3,12 +3,13 @@ using UnityEngine;
 public class AttackAction
 {
     public Player attacker;
-    public Monster defender;
+    public int defenderSlotIndex;
     public Weapon weaponUsed;
-    public AttackAction(Player attacker, Monster defender, Weapon weaponUsed)
+    public DeckManager deckManager;
+    public AttackAction(Player attacker, int defenderSlotIndex, Weapon weaponUsed)
     {
         this.attacker = attacker;
-        this.defender = defender;
+        this.defenderSlotIndex = defenderSlotIndex;
         this.weaponUsed = weaponUsed;
     }
 }

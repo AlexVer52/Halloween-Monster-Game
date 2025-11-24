@@ -18,5 +18,8 @@ MonoBehaviour:
   cardType: 0
   description: "Une petite et haineuse cr\xE9ature"
   hp: 5
-  rewardVP: 0
-  rewardWeapon: Poison
+  rewardVP: 1
+  artwork: {fileID: 3308487660265201465, guid: 5d0ba7a5d469b7d46ae4b94111dc6e63, type: 3}
+  backgroundImage: {fileID: 0}
+  rewardWeaponCards:
+  - {fileID: 11400000, guid: 7f2a83b44f06ec641b55cae0bdce5523, type: 2}

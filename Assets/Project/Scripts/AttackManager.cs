@@ -8,7 +8,7 @@ public class AttackManager : MonoBehaviour
     public List<Player> players = new List<Player>();
     public List<AttackAction> attackQueue = new List<AttackAction>();
     public List<Monster> monsterOnField = new List<Monster>();
-    public Monster selectedMonster;
+    public int selectedMonster;
     public Dropdown weaponSelectionDropdown;
     public Weapon selectedWeapon;
     public AttackAction currentAttackAction;
@@ -16,9 +16,7 @@ public class AttackManager : MonoBehaviour
     public GameObject battleField;
     public void StartAttackPhase(Player player)
     {
-        attackQueue.Clear();
-        monsterOnField.Clear();
-        monsterOnField = FindObjectOfType<DeckManager>().monsterOnField.ConvertAll(m => new Monster(m));
+        monsterOnField = FindObjectOfType<DeckManager>().monstersInGame;
         this.currentPlayer = player;
         Debug.Log("Monsters on field for Attack Phase:" + monsterOnField.Count);
         FillDropdown();
@@ -28,22 +26,22 @@ public class AttackManager : MonoBehaviour
 
     public void ChoiceMonster1()
     {
-        selectedMonster = monsterOnField[0];
-        Debug.Log("Selected Monster: " + selectedMonster.monsterCardData.cardName);
+        selectedMonster = 0;
+        Debug.Log("Selected Monster: " + monsterOnField[selectedMonster].monsterCardData.cardName);
         currentAttackAction = new AttackAction(currentPlayer, selectedMonster, selectedWeapon);
     }
 
     public void ChoiceMonster2()
     {
-        selectedMonster = monsterOnField[1];
-        Debug.Log("Selected Monster: " + selectedMonster.monsterCardData.cardName);
+        selectedMonster = 1;
+        Debug.Log("Selected Monster: " + monsterOnField[selectedMonster].monsterCardData.cardName);
         currentAttackAction = new AttackAction(currentPlayer, selectedMonster, selectedWeapon);
     }
 
     public void ChoiceMonster3()
     {
-        selectedMonster = monsterOnField[2];
-        Debug.Log("Selected Monster: " + selectedMonster.monsterCardData.cardName);
+        selectedMonster = 2;
+        Debug.Log("Selected Monster: " + monsterOnField[selectedMonster].monsterCardData.cardName);
         currentAttackAction = new AttackAction(currentPlayer, selectedMonster, selectedWeapon);
     }
 
@@ -79,7 +77,7 @@ public class AttackManager : MonoBehaviour
     public void ConfirmAttackButton()
     {
         Debug.Log("Confirming attack by " + currentAttackAction.attacker.playerCardData.cardName +
-            " on " + currentAttackAction.defender.monsterCardData.cardName +
+            " on " + monsterOnField[currentAttackAction.defenderSlotIndex].monsterCardData.cardName +
             " using " + currentAttackAction.weaponUsed.weaponCardData.cardName);
         attackQueue.Add(currentAttackAction);
         attackSelectionPanel.SetActive(false);

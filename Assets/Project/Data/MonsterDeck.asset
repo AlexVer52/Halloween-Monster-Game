@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DeckBuilding
   monsterDeck:
   - {fileID: 11400000, guid: 7720c2a85d515d541a14c164566b78b3, type: 2}
-  - {fileID: 11400000, guid: 7720c2a85d515d541a14c164566b78b3, type: 2}
+  - {fileID: 11400000, guid: ef6de5710f216904182bd9a45712dfdf, type: 2}
   - {fileID: 11400000, guid: 4738a130d90419f4ebbd6192036734dc, type: 2}
   - {fileID: 11400000, guid: 897668fc1d537574db26be964ca0e6ea, type: 2}
