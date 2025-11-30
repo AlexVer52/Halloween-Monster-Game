@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1542a5603802e4282f0f1528f9e42c, type: 3}
+  m_Name: "G\xE9ant"
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterCard
+  id: 0
+  cardName: Giant
+  cardImage: {fileID: 0}
+  cardType: 0
+  description: Un titan
+  hp: 15
+  rewardVP: 5
+  artwork: {fileID: 8927890629014514271, guid: 1c2e7a8845f79ba4888058482b27ea0b, type: 3}
+  rewardWeaponCards:
+  - {fileID: 11400000, guid: 7f2a83b44f06ec641b55cae0bdce5523, type: 2}
+  - {fileID: 11400000, guid: ce51cd9834df9e64da941e2763544bb4, type: 2}

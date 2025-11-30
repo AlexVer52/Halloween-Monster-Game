@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MonsterDeck
   m_EditorClassIdentifier: Assembly-CSharp::DeckBuilding
   monsterDeck:
-  - {fileID: 11400000, guid: 7720c2a85d515d541a14c164566b78b3, type: 2}
-  - {fileID: 11400000, guid: ef6de5710f216904182bd9a45712dfdf, type: 2}
+  - {fileID: 11400000, guid: a6b8926e7835ecb47a5a45357799d856, type: 2}
+  - {fileID: 11400000, guid: b644fb08ae3b9f54a8ee4650afded53a, type: 2}
   - {fileID: 11400000, guid: 4738a130d90419f4ebbd6192036734dc, type: 2}
-  - {fileID: 11400000, guid: 897668fc1d537574db26be964ca0e6ea, type: 2}
+  - {fileID: 11400000, guid: 79218b216da9c244e98c3436ea374b48, type: 2}
